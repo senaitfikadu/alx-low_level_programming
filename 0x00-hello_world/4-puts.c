@@ -1,7 +1,6 @@
 int main(void)
 {
-	char str[50];
-	strcpy(str,"Programming is like building a multilingual puzzle");
-	puts(str);
+	printf("Programming is like building a multilingual puzzle");
+	
 return (0);
 }
