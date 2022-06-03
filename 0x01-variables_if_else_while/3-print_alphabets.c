@@ -2,6 +2,7 @@
 /**
 * main - asaign char
 * Return: 0
+*/
 int main(void)
 {
 	char alphabet;
