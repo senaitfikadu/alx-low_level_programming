@@ -5,11 +5,11 @@
 */
 int main(void)
 {
-	int e, i;
+	int b, i;
 
-	e = 48;
+	b = 48;
 	i = 48;
-	while(e < 58)
+	while(b < 58)
 	{
 		i = 48;
 		while(i < 58)
