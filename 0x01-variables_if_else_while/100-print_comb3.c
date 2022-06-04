@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
 * main - uses while loop
+*
 * Return: 0
 */
 int main(void)
@@ -9,12 +11,13 @@ int main(void)
 
 	e = 48;
 	i = 48;
-	while (e < 58) 
+
+	while (e < 58)
 	{
-		while (i < 58) 
+		while (i < 58)
 		{
 			e = 48;
-			if (e != i && e < i)
+		if (e != i && e < i)
 			{
 				putchar(e);
 				putchar(i);
