@@ -5,9 +5,11 @@
 */
 int main(void)
 {
-	b = 48;
+	int e' i;
+
+	e = 48;
 	i = 48;
-	while(b < 58)
+	while(e < 58)
 	{
 		i = 48;
 		while(i < 58)
@@ -18,7 +20,7 @@ int main(void)
 			puchar(i);
 		if(b == 57 && i == 56)
 		{
-			Break;
+Break:
 			}
 			putchar(',');
 			putchar(' ');
