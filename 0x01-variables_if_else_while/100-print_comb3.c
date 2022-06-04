@@ -9,10 +9,11 @@ int main(void)
 
 	e = 48;
 	i = 48;
-	while(e < 58)
+	while (e < 58) 
 	{
-		while(i < 58)
+		while (i < 58) 
 		{
+			e = 48;
 			if (e != i && e < i)
 			{
 				putchar(e);
