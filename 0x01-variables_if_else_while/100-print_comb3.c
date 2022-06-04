@@ -5,22 +5,22 @@
 */
 int main(void)
 {
-	int b, i;
+	int e, i;
 
-	b = 48;
+	e = 48;
 	i = 48;
-	while(b < 58)
+	while(e < 58)
 	{
 		i = 48;
 		while(i < 58)
 		{
-		if (b != i && b < i)
+		if (e != i && e < i)
 		{
-			putchar(b);
+			putchar(e);
 			puchar(i);
-		if(b == 57 && i == 56)
+		if(e == 57 && i == 56)
 		{
-Break:
+			Break:
 			}
 			putchar(',');
 			putchar(' ');
