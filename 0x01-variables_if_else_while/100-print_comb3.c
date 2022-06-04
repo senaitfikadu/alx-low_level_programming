@@ -17,10 +17,10 @@ int main(void)
 		if (e != i && e < i)
 		{
 			putchar(e);
-			puchar(i);
+			putchar(i);
 		if(e == 57 && i == 56)
 		{
-			Break:
+			break:
 			}
 			putchar(',');
 			putchar(' ');
