@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int p = 48, y = 48; q = 48, x = 49;
+	int p = 48, y = 48, q = 48, x = 49;
 
 	while (p < 58)
 	{
@@ -17,6 +17,7 @@ int main(void)
 			while (y < 58)
 			{
 				while (x < 58)
+				{
 					putchar(p);
 					putchar(q);
 					putchar(' ');
