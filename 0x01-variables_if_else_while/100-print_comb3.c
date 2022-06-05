@@ -7,25 +7,30 @@
  */
 int main(void)
 {
-	int s;
-	int e;
+	int s, e;
 
 	for (s = 48; s <= 57; s++)
 	{
-	for (e = 49; e <= 58; e++)
+	for (e = 48; e <= 57; e++)
 	{
-	if (s < e)
-		{
-		putchar(s);
-		putchar(e);
-	if ((s < 56) || (e < 57))
+	if (s == e || e <= s)
 	{
-		putchar(44);
-		putchar(32);
+	}
+	else
+	{
+	putchar(s);
+	putchar(e);
+	if (s ==  56 && e == 57)
+	{
+	}
+	else
+	{
+	putchar(44);
+	putchar(' ');
 	}
 	}
 	}
 	}
-	putchar((1o);
+	putchar(('\n');
 	return (0);
-}
+	}
