@@ -6,16 +6,11 @@
 */
 int _islower(int c)
 {
-	int islower(int c);
-
-	if (islower(c))
+	if (c>='a' && c<='z')
 	{
-		_putchar("'%c' is lowercase\n", c);
+		return (1);
 	}
-	 else
-	{
-		_putchar("'%c' is uppercase\n", c);
+	else{
+		return (0);
+	}
 }
-
-
-
