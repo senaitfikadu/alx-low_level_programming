@@ -10,14 +10,12 @@ int _islower(int c)
 
 	if (islower(c))
 	{
-		_putchar("'%c' is lowercase\n", letter);
+		_putchar("'%c' is lowercase\n", c);
 	}
 	 else
 	{
-		_putchar("'%c' is uppercase\n", letter);
+		_putchar("'%c' is uppercase\n", c);
 }
-		 
-i
 
 
 
