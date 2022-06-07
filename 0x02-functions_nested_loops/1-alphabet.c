@@ -4,6 +4,6 @@ void print_alphabet(void){
 	for (i='a';i<='z';i++){
 		_putchar(i);
 	}
-	_putchhar('\n');
+	_putchar('\n');
 }
 }
