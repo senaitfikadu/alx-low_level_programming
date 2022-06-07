@@ -9,5 +9,5 @@
  */
 void _putchar()
 {
-	write(1, &c, 1);
+	write(1, "_putchar", 1);
 }
