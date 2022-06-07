@@ -7,8 +7,8 @@
  *
  * Return: 0 (success)
  */
-int _putchar()
+int fun(void)
 {
-	_putchar("_putchar");
+	_putchar('a');
 	return (0);
 }
