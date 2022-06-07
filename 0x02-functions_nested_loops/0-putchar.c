@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * main - prints putchar
  *
@@ -7,7 +7,7 @@
  *
  * Return: 0 (success)
  */
-int main(void)
+void _putchar()
 {
-	_putchar("_putchar");
+	write(1, &c, 1);
 }
