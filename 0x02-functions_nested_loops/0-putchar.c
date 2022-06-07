@@ -3,12 +3,12 @@
 /**
  * main - prints putchar
  *
- * Return: 0
+ * description: prints putchar
  *
+ * Return: 0 (success)
  */
 int main(void)
 {
-
 	char text[9] = "_putchar";
 	int i = 0;
 
