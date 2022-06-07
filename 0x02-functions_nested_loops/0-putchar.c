@@ -7,7 +7,8 @@
  *
  * Return: 0 (success)
  */
-void _putchar()
+int _putchar()
 {
-	write(1, "_putchar", 1);
+	_putchar("_putchar");
+	return (0);
 }
