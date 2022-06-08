@@ -1,11 +1,10 @@
 #include"main.h"
 /**
- *
- *
- *
- *
- * Return: always 0
- */
+* print_sign - print the sign of number
+* @n: n is an ascii character
+*
+* Return: always 0
+*/
 int print_sign(int n)
 {
 	if (n > 0)
