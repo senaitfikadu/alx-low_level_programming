@@ -1,11 +1,11 @@
-
-  
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
  * print_to_98 - print numbers n to 98
  * @n: integer argument
+ *
+ * Return: 0
  */
 
 void print_to_98(int n)
