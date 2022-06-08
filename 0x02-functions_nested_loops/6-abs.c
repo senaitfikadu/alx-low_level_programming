@@ -1,11 +1,22 @@
 #include "main.h"
 
-int _abs(int y)
-{
-	if (y<0){
-		return -y;
+/**
+* _abs - gives the absolute value
+* of an integer.
+*
+* @n: input number as an integer.
+*
+* Return: absolu
+*/
+
+int _abs(int n)
+	{
+	if (n >= 0)
+	{
+	return (n);
 	}
-	else{
-		return y;
-	}	
+	else
+	{
+	return (n * -1);
+	}
 }
