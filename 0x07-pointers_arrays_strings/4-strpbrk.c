@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * _strpbrk - bytes
- * @s: pointer to char
- * @accept: pointer to char
- * Return: NULL
+ *_strpbrk - locates the first occurrence of string s in string
+ *accept
+ *
+ *@s:string scanned
+ *@accept:test
+ *
+ *Return:pointer to byte in s
+ *
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
@@ -22,5 +25,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-	return (NULL);
+	return (0);
 }
