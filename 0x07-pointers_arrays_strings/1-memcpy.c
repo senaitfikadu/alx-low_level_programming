@@ -1,11 +1,12 @@
 #include "main"
 
 /**
- * _memcpy - irontnoux2
- * @dest: pointer to char params
- * @src: pointer to char params
- * @n: size
- * Return: *dest
+ *_memcpy - copies memory area
+ *
+ *@dest:destination
+ *@src:source
+ *@n:no. of bytes
+ *Return:pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
