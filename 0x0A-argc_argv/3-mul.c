@@ -1,5 +1,4 @@
-#include "main.h"
-#incude < stdio.h >
+#incude <stdio.h>
 
 /**
  * main - multiplies two numbers.
