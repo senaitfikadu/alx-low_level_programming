@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+
 /**
  * _calloc - allocates memory for an array;
  * @nmemb: no of elements
@@ -27,6 +27,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		*((char *)(p) + i) = 0;
 	}
-	return (P);
+	return (p);
 }
-
