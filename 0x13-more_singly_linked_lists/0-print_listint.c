@@ -7,13 +7,13 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	register int nodes;
+	register int nodes = 0;
 
 	while (h)
 	{
 		printf("%i\n", h->n);
 		h = h->next;
-		nodes++
+		nodes++;
 	}
 	return (nodes);
 }
